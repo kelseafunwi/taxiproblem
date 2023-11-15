@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom'
 import Root from './Root'
 import About from './pages/About'
+import Home from './pages/Home'
 
 function App() {
   const router = createBrowserRouter(
@@ -24,12 +25,3 @@ function App() {
 }
 
 export default App
-
-
-export const Home = () => {
-  return (
-    <div>
-      Home section
-    </div>
-  )
-}
