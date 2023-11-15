@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -13,18 +14,18 @@ const Header = () => {
                 </div>
                 <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                 <div className="text-sm lg:flex-grow">
-                    <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-yellow-500 mr-4 transform hover:scale-110 transition-transform">
+                    <Link href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4 transform hover:scale-110 transition-transform">
                     Book a Ride
-                    </a>
-                    <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-yellow-500 mr-4 transform hover:scale-110 transition-transform">
+                    </Link>
+                    <Link href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4 transform hover:scale-110 transition-transform">
                     Our Fleet
-                    </a>
-                    <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-yellow-500 mr-4 transform hover:scale-110 transition-transform">
+                    </Link>
+                    <Link href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4 transform hover:scale-110 transition-transform">
                     Contact Us
-                    </a>
-                    <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-yellow-500 transform hover:scale-110 transition-transform">
+                    </Link>
+                    <Link href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white transform hover:scale-110 transition-transform">
                     About Us
-                    </a>
+                    </Link>
                 </div>
                 </div>
             </nav>

@@ -6,7 +6,7 @@ export default function Root() {
     return (
         <div className="">
             <Header />
-            <div className="body min-h-screen">
+            <div className="body min-h-screen bg-yellow-500">
                 <Outlet />
             </div>
             <Footer />
