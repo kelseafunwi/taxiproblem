@@ -18,7 +18,10 @@ const Header = () => {
                         Homepage
                     </NavLink>
                     <NavLink to="/book-ride" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4 transform hover:scale-110 transition-transform">
-                    Book a Ride
+                    My Rides
+                    </NavLink>
+                    <NavLink to="/drivers" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4 transform hover:scale-110 transition-transform">
+                    Drivers
                     </NavLink>
                     <NavLink to="/out-fleet" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4 transform hover:scale-110 transition-transform">
                     Our Fleet
