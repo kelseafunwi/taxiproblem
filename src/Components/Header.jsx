@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div className="bg-yellow-500">
             <nav className="flex items-center justify-between flex-wrap p-6">
-                <div className="flex items-center flex-shrink-0 text-black mr-6">
+                <div className="flex items-center flex-shrink-0text-4xl font-bold text-yellow-900 mr-6">
                 <span className="font-semibold text-xl tracking-tight">Your Taxi App</span>
                 </div>
                 <div className="block lg:hidden">
