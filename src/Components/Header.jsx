@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -14,18 +14,21 @@ const Header = () => {
                 </div>
                 <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                 <div className="text-sm lg:flex-grow">
-                    <Link href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4 transform hover:scale-110 transition-transform">
+                    <NavLink to="/" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4 transform hover:scale-110 transition-transform">
+                        Homepage
+                    </NavLink>
+                    <NavLink to="/book-ride" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4 transform hover:scale-110 transition-transform">
                     Book a Ride
-                    </Link>
-                    <Link href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4 transform hover:scale-110 transition-transform">
+                    </NavLink>
+                    <NavLink to="/out-fleet" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4 transform hover:scale-110 transition-transform">
                     Our Fleet
-                    </Link>
-                    <Link href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4 transform hover:scale-110 transition-transform">
+                    </NavLink>
+                    <NavLink to="/contact" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4 transform hover:scale-110 transition-transform">
                     Contact Us
-                    </Link>
-                    <Link href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white transform hover:scale-110 transition-transform">
+                    </NavLink>
+                    <NavLink to="/about" className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white transform hover:scale-110 transition-transform">
                     About Us
-                    </Link>
+                    </NavLink>
                 </div>
                 </div>
             </nav>

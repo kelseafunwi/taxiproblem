@@ -30,7 +30,6 @@ function About() {
             <li>JavaScript</li>
             <li>Node.js</li>
             <li>MongoDB</li>
-            {/* Add more skills as needed */}
           </ul>
         </div>
         <div className="bg-white shadow-lg rounded-lg p-4">
